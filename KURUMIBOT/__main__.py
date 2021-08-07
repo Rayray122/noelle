@@ -190,29 +190,7 @@ def start(update: Update, context: CallbackContext):
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
                     [[
-                        InlineKeyboardButton(
-                            text="☑️ Add Kurumi Chan to your group",
-                            url="t.me/{}?startgroup=true".format(
-                                context.bot.username))
-                    ],
-                     [
-                         InlineKeyboardButton(
-                             text="🚨 Support 🚨",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
-                         InlineKeyboardButton(
-                             text="My luv ❤",
-                             url="https://t.me/A_lonelyPerson")
-                    ], 
-                     [
-                         InlineKeyboardButton(
-                             text="🔔 Updates of Noelle 🔔",
-                             url="https://t.me/hiroiscool")
-                    ], 
-                     [
-                         InlineKeyboardButton(
-                             text="📳 Anime Hub 📳",
-                             url="https://t.me/anime_hubon")
-                    ]]))
+                        
                      
                     
                   
